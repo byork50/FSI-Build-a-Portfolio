@@ -1,0 +1,28 @@
+html {
+    background: url(../images/1000-cropped.jpg) no-repeat center center fixed;/**uses a computer programming related image for the entire page**/
+    background-size: cover;
+    height: 100%;
+    --overflow: hidden;
+}
+.main {
+    color: white;
+    margin: 25px;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+.sub {
+    margin: 25px;
+    font-family: arial;
+    font-size: 18px;
+    color: rgb(6, 244, 22);/**everything inside the profile section(aka sub) will be in bright green font and easier to see with dark background**/
+}
+.contact {
+    color: white;
+    margin: 25px;
+    font-family: arial;
+    font-size: 18px
+}
+img {
+    border-radius: 30px;/**this will give the image of Dwight rounded edges to make it look a little nicer**/
+}
